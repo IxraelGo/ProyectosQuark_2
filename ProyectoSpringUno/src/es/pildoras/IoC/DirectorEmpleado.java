@@ -3,6 +3,6 @@ package es.pildoras.IoC;
 public class DirectorEmpleado implements Empleados{
 
 	public String getTareas() {
-		return "Gestiono la plantillas de la empresa.";
+		return "Gestiono la plantillas de la empresa Ixcarabajo.";
 	}
 }
