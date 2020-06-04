@@ -12,6 +12,7 @@ public class UsoEmpleados {
 		Empleados Empleado1= new JefeEmpleado();
 		//Uso de los objetos creados
 		System.out.println(Empleado1.getTareas());*/
+		
 		ClassPathXmlApplicationContext contexto = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		Empleados Juan = contexto.getBean("miEmpleado",Empleados.class);
