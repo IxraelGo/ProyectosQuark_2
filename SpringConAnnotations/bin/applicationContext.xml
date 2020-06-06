@@ -9,5 +9,5 @@
     http://www.springframework.org/schema/context/spring-context-3.1.xsd
 ">
 <context:component-scan base-package="es.pildoras.pruebaannotation"></context:component-scan>
-
+<!-- Comentario de prueba -->
 </beans>
