@@ -5,20 +5,30 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ComercialExperimentado implements Empleados {
-
+	
+	
+	
+	
+	@Autowired
 	private CreacionInformeFinanciero nuevoInforme;
 	
+	/*
 	@Autowired
 	public ComercialExperimentado(CreacionInformeFinanciero nuevoInforme) {
 		this.nuevoInforme = nuevoInforme;
+	}*/
+	@Autowired
+	public void queMasDaElNombre(CreacionInformeFinanciero nuevoInforme) {        
+		this.nuevoInforme = nuevoInforme;
 	}
-	
 	
 	@Override
 	public String getTareas() {
 		// TODO Auto-generated method stub
 		return "Vender, vender y vender más!!";
 	}
+
+
 
 
 	@Override
