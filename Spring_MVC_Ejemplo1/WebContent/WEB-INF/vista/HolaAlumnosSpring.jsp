@@ -5,6 +5,8 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css"
+	href="${pageContext.request.contextPath}/recursos/estilos/miestilo.css">
 </head>
 <body>
 
@@ -17,6 +19,9 @@
 	${mensajeClaro }
 
 	</p>
+
+	<img alt="foto"
+		src="${pageContext.request.contextPath}/recursos/imgs/casa.jpg">
 
 </body>
 </html>
