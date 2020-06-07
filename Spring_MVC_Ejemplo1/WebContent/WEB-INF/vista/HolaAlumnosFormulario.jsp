@@ -8,9 +8,13 @@
 </head>
 <body>
 
-	<h1>Primer ejemplo de MVC en spring</h1>
+	<form action="procesarFormulario" method="get">
 	
-	<a href="muestraFormulario">Ir al formulario</a>
+		<input type="text" name="nombreAlumno">
+		
+		<input type="submit">
+	
+	</form>
 
 </body>
 </html>
