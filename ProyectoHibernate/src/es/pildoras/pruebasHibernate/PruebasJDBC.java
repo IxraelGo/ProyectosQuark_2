@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class PruebasJDBC {
 	
 	public static void main(String[] args) {
-		
+		//Datos
 		String jdbcUrl="jdbc:mysql://localhost:3306/pruebasHibernate?useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 		String usuario="root";
 		String contra="";

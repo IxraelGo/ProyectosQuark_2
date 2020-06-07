@@ -15,7 +15,7 @@ public class Clientes {
 	@Column(name="Direccion")
 	private String direccion;
 	
-	//Constructores
+	//Constructoress
 	public Clientes() {}
 
 	public Clientes(String nombre, String apellidos, String direccion) {
