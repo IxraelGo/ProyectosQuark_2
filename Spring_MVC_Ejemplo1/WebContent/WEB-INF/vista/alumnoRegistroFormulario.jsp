@@ -37,6 +37,12 @@
 		
 		
 		<br/><br/><br/>
+		Inglés<form:checkbox path="idiomasAlumno" value="Inglés"/>
+		Francés<form:checkbox path="idiomasAlumno" value="Francés"/>
+		Alemán<form:checkbox path="idiomasAlumno" value="Alemán"/>
+		Chino<form:checkbox path="idiomasAlumno" value="Chino"/>
+		
+		<br/><br/><br/>
 		
 
 		<input type="submit" value="Enviar"/>		

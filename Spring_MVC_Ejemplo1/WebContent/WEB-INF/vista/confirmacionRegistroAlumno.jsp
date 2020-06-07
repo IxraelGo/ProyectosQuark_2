@@ -11,5 +11,9 @@ El alumno con nombre <strong>${elAlumno.nombre}</strong> y apellido <strong>${el
 registrado con éxito.
 <br>
 La asignatura escogida es: <strong>${elAlumno.optativa}</strong>
+<br/>
+La ciudad donde iniciará los estudios el alumno es: ${elAlumno.ciudadEstudios}
+<br/>
+Los idiomas escogidos por el alumno son: ${elAlumno.idiomasAlumno}
 </body>
 </html>
