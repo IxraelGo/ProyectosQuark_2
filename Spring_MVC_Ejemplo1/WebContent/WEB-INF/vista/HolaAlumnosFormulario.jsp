@@ -8,12 +8,10 @@
 </head>
 <body>
 
-	<form action="procesarFormulario" method="get">
-	
-		<input type="text" name="nombreAlumno">
-		
-		<input type="submit">
-	
+	<form action="procesarFormulario2" method="get">
+
+		<input type="text" name="nombreAlumno"> <input type="submit">
+
 	</form>
 
 </body>

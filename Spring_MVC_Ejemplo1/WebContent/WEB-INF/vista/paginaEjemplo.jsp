@@ -9,7 +9,7 @@
 <body>
 
 	<h1>Primer ejemplo de MVC en spring</h1>
-	
+
 	<a href="muestraFormulario">Ir al formulario</a>
 
 </body>
