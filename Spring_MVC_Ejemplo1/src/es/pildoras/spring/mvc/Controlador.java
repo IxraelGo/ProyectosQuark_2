@@ -5,10 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class Controlador {
-
+	
+	// mensaje de prueba
 	@RequestMapping
 	public String muestraPagina() {
-		return "pagina Ejemplo";
+		return "paginaEjemplo";
 	}
 
 }
