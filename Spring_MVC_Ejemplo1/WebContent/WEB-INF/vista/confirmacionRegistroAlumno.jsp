@@ -7,7 +7,7 @@
 <title>Confirmación de Registro</title>
 </head>
 <body>
-El alumno con nombre <strong>${elAlumno.nombre}</strong> y apellido <strong>${elAlumno.apellido}</strong> se ha
+El alumno con nombre <strong>${elAlumno.nombre}</strong> ,apellido <strong>${elAlumno.apellido}</strong> ,edad <strong>${elAlumno.edad}</strong> y E-Mail <strong> ${elAlumno.email} </strong> se ha
 registrado con éxito.
 <br>
 La asignatura escogida es: <strong>${elAlumno.optativa}</strong>
