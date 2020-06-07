@@ -10,7 +10,9 @@
 <body>
 
 	<form:form action="procesarFormulario" modelAttribute="elAlumno">
+	
 		Nombre: <form:input path="nombre"/>
+		<form:errors path="nombre" style="color:red"/>
 		
 		<br><br><br>
 		
