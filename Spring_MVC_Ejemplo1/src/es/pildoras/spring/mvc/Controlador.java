@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class Controlador {
 	
-	// mensaje de prueba
-	// Mensaje de prueba 2
 	@RequestMapping
 	public String muestraPagina() {
 		return "paginaEjemplo";
