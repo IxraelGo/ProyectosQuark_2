@@ -33,7 +33,7 @@ public class HolaAlumnosControlador {
 		String mensajeFinal = "¿Quién es el mejor alumno? " + nombre;
 
 		// Agregando Informacio al modelo
-		modelo.addAttribute("mensajeClaro, mensajeFinal");
+		modelo.addAttribute("mensajeClaro", mensajeFinal);
 
 		return "HolaAlumnosSpring";
 
