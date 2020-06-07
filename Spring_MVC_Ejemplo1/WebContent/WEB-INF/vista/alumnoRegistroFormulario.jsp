@@ -29,6 +29,15 @@
 		</form:select>
 
 		<br/><br/><br/>
+		
+		Barcelona<form:radiobutton path="ciudadEstudios" value="Barcelona"/>
+		Madrid<form:radiobutton path="ciudadEstudios" value="Madrid"/>
+		Valencia<form:radiobutton path="ciudadEstudios" value="Valencia"/>
+		Bilbao<form:radiobutton path="ciudadEstudios" value="Bilbao"/>
+		
+		
+		<br/><br/><br/>
+		
 
 		<input type="submit" value="Enviar"/>		
 		
