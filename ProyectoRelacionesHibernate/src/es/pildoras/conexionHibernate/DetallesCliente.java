@@ -18,6 +18,10 @@ public class DetallesCliente {
 	@Column(name="comentarios")
 	private String comentarios;
 	
+	@OneToOne(mappedBy="detallesCliente", cascade=CascadeType.ALL)
+	private Cliente elCliente;
+	
+	
 	//Constructoress
 	public DetallesCliente() {}
 
@@ -26,6 +30,18 @@ public class DetallesCliente {
 		this.web = web;
 		this.tfno = tfno;
 		this.comentarios = comentarios;
+	}
+	
+	
+	
+	
+
+	public Cliente getElCliente() {
+		return elCliente;
+	}
+
+	public void setElCliente(Cliente elCliente) {
+		this.elCliente = elCliente;
 	}
 
 	public int getId() {
@@ -60,6 +76,12 @@ public class DetallesCliente {
 		this.comentarios = comentarios;
 	}
 
+	@Override
+	public String toString() {
+		return "DetallesCliente [id=" + id + ", web=" + web + ", tfno=" + tfno + ", comentarios=" + comentarios + "]";
+	}
+
+	
 	
 	
 	
