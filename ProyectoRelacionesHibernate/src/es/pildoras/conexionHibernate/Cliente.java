@@ -14,7 +14,7 @@ public class Cliente {
 	@Column(name="nombre")
 	private String nombre;
 	@Column(name="apellido")
-	private String apellidos;
+	private String apellido;
 	@Column(name="direccion")
 	private String direccion;
 	
@@ -28,12 +28,20 @@ public class Cliente {
 
 	public Cliente(String nombre, String apellidos, String direccion) {
 		this.nombre = nombre;
-		this.apellidos = apellidos;
+		this.apellido = apellidos;
 		this.direccion = direccion;
 	}
 
 	
 	
+
+	public DetallesCliente getDetallesCliente() {
+		return detallesCliente;
+	}
+
+	public void setDetallesCliente(DetallesCliente detallesCliente) {
+		this.detallesCliente = detallesCliente;
+	}
 
 	public int getId() {
 		return id;
@@ -52,11 +60,11 @@ public class Cliente {
 	}
 
 	public String getApellidos() {
-		return apellidos;
+		return apellido;
 	}
 
 	public void setApellidos(String apellidos) {
-		this.apellidos = apellidos;
+		this.apellido = apellidos;
 	}
 
 	public String getDireccion() {
